@@ -18,10 +18,26 @@ fun inWhenCheck(c: Char) = when (c) {
     else -> throw Exception("")
 }
 
+fun inWhenCheck1(c: Char) = when {
+    c in '0'..'9' -> "It's a digit"
+    c in 'a'..'z' || c in 'A'..'Z' -> "It's a letter"
+    else -> throw Exception("1231")
+}
+
 fun main(args: Array<String>) {
     inRangeCheck()
 
     println(inWhenCheck('a'))
     println(inWhenCheck('8'))
-    println(inWhenCheck('-'))
+    try {
+        println(inWhenCheck('-'))
+    } catch (e: Exception) {
+        println("occur exception")
+        e.printStackTrace()
+    }
+
+    println()
+    println(inWhenCheck1('a'))
+    println(inWhenCheck1('8'))
+    println(inWhenCheck1('-'))
 }

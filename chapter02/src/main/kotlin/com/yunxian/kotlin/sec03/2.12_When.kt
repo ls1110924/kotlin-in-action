@@ -1,5 +1,6 @@
 package com.yunxian.kotlin.sec03
 
+import com.yunxian.kotlin.sec03.Color;
 import com.yunxian.kotlin.sec03.Color.*;
 
 fun getMnemonic(color: Color): String {
