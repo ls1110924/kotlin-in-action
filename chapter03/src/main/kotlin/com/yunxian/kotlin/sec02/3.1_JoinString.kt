@@ -1,10 +1,11 @@
 package com.yunxian.kotlin.sec02
 
-val counter: Int = 0
+var counter: Int = 0
 const val counter1: Int = 0
 var name: Int = 0
 
 fun <T> joinString(collection: Collection<T>, separator: String, prefix: String, suffix: String): String {
+    counter++
     val sb: StringBuilder = StringBuilder(prefix);
     for ((index, str) in collection.withIndex()) {
         if (index > 0) sb.append(separator)
