@@ -2,4 +2,5 @@ rootProject.name = 'kotlin-in-action'
 include 'chapter01',
         'chapter02',
         'chapter03',
-        'chapter04'
+        'chapter04',
+        'chapter05'
