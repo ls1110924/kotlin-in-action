@@ -1,4 +1,4 @@
-package com.yunxian.kotlin.chapter05.sec01.lazyinit
+package com.yunxian.kotlin.chapter06.sec01.lazyinit
 
 class MyService {
     fun performAction(): String = "hello"

@@ -1,4 +1,4 @@
-package com.yunxian.kotlin.chapter05.sec01.let
+package com.yunxian.kotlin.chapter06.sec01.let
 
 fun sendEmail(email: String) {
     println(email)

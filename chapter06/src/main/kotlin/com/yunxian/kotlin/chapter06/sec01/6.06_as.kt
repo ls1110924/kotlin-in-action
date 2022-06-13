@@ -1,4 +1,4 @@
-package com.yunxian.kotlin.chapter05.sec01.safeas
+package com.yunxian.kotlin.chapter06.sec01.safeas
 
 class Person(val name: String, val age: String) {
 

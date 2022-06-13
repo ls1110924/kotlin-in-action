@@ -1,6 +1,4 @@
-package com.yunxian.kotlin.chapter05.sec01.elvis
-
-import com.yunxian.kotlin.chapter05.sec01.safe.countryName
+package com.yunxian.kotlin.chapter06.sec01.elvis
 
 fun strLen(str: String?) = str?.length ?: 0
 

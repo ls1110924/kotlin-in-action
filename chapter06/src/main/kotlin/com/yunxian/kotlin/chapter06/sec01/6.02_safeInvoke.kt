@@ -1,7 +1,8 @@
-package com.yunxian.kotlin.chapter05.sec01.safe
+package com.yunxian.kotlin.chapter06.sec01.safe
 
 fun printAllCaps(str: String?) {
-    val result = str?.toUpperCase()
+//    val result = str?.toUpperCase()
+    val result = str?.uppercase()
     println(result)
 }
 
